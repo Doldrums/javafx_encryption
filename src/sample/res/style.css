@@ -1,0 +1,21 @@
+.background {
+	-fx-background-image: url("./img/bg.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.page {
+    -fx-min-width: 200px;
+    -fx-pref-width: 200px;
+    -fx-max-width: 200px;
+
+    -fx-min-height: 250px;
+    -fx-pref-height: 250px;
+    -fx-max-height: 300px;
+
+    -fx-border-insets: -10px;
+    -fx-border-width: 10px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #ffffff;
+
+    -fx-background-color: #ffffff;
+}
