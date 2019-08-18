@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Group fx:id="root" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@sample/res/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="405.0" prefWidth="600.0">
+         <center>
+            <Pane maxHeight="280.0" prefHeight="252.0" prefWidth="200.0" styleClass="page" stylesheets="@sample/res/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="76.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#595858" layoutX="-2.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="simple and convenient chat with encryption for each user" textAlignment="CENTER" wrappingWidth="201.244873046875" />
+                  <Button fx:id="btn" layoutX="60.0" layoutY="176.0" mnemonicParsing="false" onAction="#click" text="LET'S START" />
+                  <TextField fx:id="txt_name" layoutX="24.0" layoutY="112.0" prefHeight="25.0" prefWidth="161.0" promptText="enter user name" />
+                     <TextField fx:id="txt_name1" layoutX="24.0" layoutY="144.0" prefHeight="25.0" prefWidth="161.0" promptText="enter user password" />
+               </children>
+            </Pane>
+         </center></BorderPane>
+   </children>
+</VBox>
+</Group>

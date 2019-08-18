@@ -13,21 +13,22 @@ import javafx.stage.Window;
 import org.w3c.dom.Text;
 
 import java.io.IOException;
-
 public class Controller {
 
     @FXML
     private Button btn;
     @FXML
     private TextField txt_name;
+    @FXML
+    private TextField txt_name1;
+
 
     @FXML
     private void click(ActionEvent event) {
 
-        if(txt_name.getText().isEmpty()&&txt_name.getText()!="PLEASE ENTER YOUR NAME") {
-           // showAlert(Alert.AlertType.ERROR, gridPane.getScene().getWindow(), "Form Error!", "Please enter your name");
+        if(txt_name.getText().isEmpty()&&txt_name1.getText().isEmpty()) {
+           //showAlert(Alert.AlertType.ERROR, gridPane.getScene().getWindow(), "Form Error!", "Please enter your name");
             System.out.println("Kek");
-            txt_name.setText("PLEASE ENTER U NAME");
             return;
         } else {
 
